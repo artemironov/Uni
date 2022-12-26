@@ -1,0 +1,54 @@
+@charset "UTF-8";
+
+html .mceContentBody {
+    max-width: 696px!important;
+    margin-left: 24px;
+    margin-right: 24px;
+    background: #ffffff url(../../images/grid-sidebar-desktop.gif) repeat-y left top;
+    font-family: Verdana, Geneva, sans-serif;
+    position: relative;
+}
+
+
+/*---------------------- Posts columns ----------------------*/
+
+.fixed td.column-image {
+    width: 80px;
+    padding: 10px 0 0 10px;
+    text-align: left;
+}
+
+.fixed th.column-image {
+    width: 80px;
+}
+
+.fixed .column-comments {
+    width: 60px;
+}
+
+.fixed .column-date {
+    width: 120px;
+}
+
+.fixed .column-categories,
+.fixed .column-tags,
+.fixed .column-actors,
+.fixed .column-chars {
+    width: 160px;
+}
+
+.fixed .column-rank_math_seo_details {
+    width: 250px;
+}
+
+
+
+/*---------------------- Terms columns ----------------------*/
+
+body.edit-tags-php #col-left {
+    width: 25%;
+}
+
+body.edit-tags-php #col-right {
+    width: 75%;
+}
